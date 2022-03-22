@@ -1,0 +1,17 @@
+{
+    "batch_size":64,
+    "seq_len":100,
+    "embed_size":240,
+    "inner_ff_size":1200,
+    "n_heads":10,
+    "n_code":4,
+    "n_vocab":5000,
+    "dropout":0.2,
+    "n_workers":12,
+    "consecutive":2,
+    "input_dim":31,
+    "warmup":0.1,
+    "epochs":40,
+    "device": "cuda",
+    "output_name": "../saved_models/transformer_AVC_run5_dymask0.pt"
+}
